@@ -10,7 +10,7 @@ resource "aws_ecs_task_definition" "ecs-codedeploy" {
                   "entryPoint"            : [],
                   "environment"           : [],
                   "essential"             : true,
-                  "image"                 : "yuukiyo/ecs-sample-app:v1",
+                  "image"                 : "yuukiyo/ecs-sample-app:v2",
                   "links"                 : [],
                   "logConfiguration"      : {
                     "logDriver" : "awslogs",
